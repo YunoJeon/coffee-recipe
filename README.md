@@ -93,7 +93,7 @@
 ---
 
 ## 데이터베이스 설계 (ERD)
-![coffee_service](https://github.com/user-attachments/assets/18400a47-6c94-4374-8342-ac1e8b813067)
+![coffee_service-2](https://github.com/user-attachments/assets/b288b6a5-c497-41e4-b2e3-c6a6190ed81e)
 
 ---
 
