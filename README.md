@@ -100,16 +100,16 @@
 ## API 엔드포인트
 [회원]
 
-- 회원가입 : POST /users
-- 로그인 : POST /users/login (토큰발행)
-- 회원조회 : GET /users/{id} (토큰필요)
-- 회원수정 : PATCH /users/{id} (토큰필요)
-- 회원탈퇴 : DELETE /users/{id} (토큰필요)
-- 즐겨찾기조회 : GET /users/{id}/favorites (토큰필요, 등록한 본인인지 확인)
-- 즐겨찾기삭제 : DELETE /users/{id}/favorites (토큰필요, 등록한 본인인지 확인)
-- 로스터등록 : POST /users/{id}/roasters (토큰필요)
-- 로스터수정 : PATCH /users/{id}/roasters (토큰필요, 등록한 본인인지 확인)
-- 구매목록조회 : GET /users/{id}/purchases (토큰필요, 구매한 본인인지 확인)
+- 회원가입 : POST /members
+- 로그인 : POST /members/login (토큰발행)
+- 회원조회 : GET /members/{id} (토큰필요)
+- 회원수정 : PATCH /members/{id} (토큰필요)
+- 회원탈퇴 : DELETE /members/{id} (토큰필요)
+- 즐겨찾기조회 : GET /members/{id}/favorites (토큰필요, 등록한 본인인지 확인)
+- 즐겨찾기삭제 : DELETE /members/{id}/favorites (토큰필요, 등록한 본인인지 확인)
+- 로스터등록 : POST /members/{id}/roasters (토큰필요)
+- 로스터수정 : PATCH /members/{id}/roasters (토큰필요, 등록한 본인인지 확인)
+- 구매목록조회 : GET /members/{id}/purchases (토큰필요, 구매한 본인인지 확인)
 
 [원두]
 
