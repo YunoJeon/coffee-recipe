@@ -107,7 +107,7 @@
 - 회원수정 : PATCH /members/{email} (토큰필요)
 - 회원탈퇴 : DELETE /members/{email} (토큰필요)
 - 즐겨찾기조회 : GET /members/{email}/favorites (토큰필요, 등록한 본인인지 확인)
-- 즐겨찾기삭제 : DELETE /members/{email}/favorites (토큰필요, 등록한 본인인지 확인)
+- 즐겨찾기삭제 : DELETE /members/favorites/{favoriteId} (토큰필요, 등록한 본인인지 확인)
 - 로스터등록 : POST /members/{email}/roasters (토큰필요)
 - 로스터수정 : PATCH /members/{email}/roasters (토큰필요, 등록한 본인인지 확인)
 - 구매목록조회 : GET /members/{email}/purchases (토큰필요, 구매한 본인인지 확인)
